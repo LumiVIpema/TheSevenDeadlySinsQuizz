@@ -3,7 +3,7 @@ for (key in answers){
     var button=document.createElement("button");
     button.innerText=key;
     button.setAttribute("onclick",`doFunction("${key}")`);
-    button.appendChild(button);
+    document.getElementByID("key");
 };
 
 Function doFunction
