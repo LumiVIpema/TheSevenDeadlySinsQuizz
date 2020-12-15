@@ -9,4 +9,8 @@ for (key in answers){
 
 };
 
-function doFunction() {};
+function doFunction(key) {
+  answers[key]++
+  
+  console.log(answers);
+};
